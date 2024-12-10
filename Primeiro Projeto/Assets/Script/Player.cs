@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            meuRb.velocity = Vector2.up * velocidade;
+            meuRb.linearVelocity = Vector2.up * velocidade;
 
         }
 
@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 
     public void veloz()
     { 
-     if (meuRb.velocity.y <- velocidade)
+     if (meuRb.linearVelocity.y <- velocidade)
         { 
             meuRb.linearVelocity = Vector2.down * velocidade;
         }
@@ -44,5 +44,5 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("bati");
-        SceneManager.LoadScene("jogo"); }
+        SceneManager.LoadScene(0); }
 }
