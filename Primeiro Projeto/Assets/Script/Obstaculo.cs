@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Obstaculo : MonoBehaviour
 {
+    [SerializeField] private float velocidade = 5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,6 +12,6 @@ public class Obstaculo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += Vector3.left * Time.deltaTime * velocidade;
     }
 }
