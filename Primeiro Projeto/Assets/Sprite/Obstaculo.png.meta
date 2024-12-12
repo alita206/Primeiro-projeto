@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 46a4abd80f5d6494b9b8664ff70c70e3
+guid: 491b58310ee625340ac03cb74c2086b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8612086772376427000
-    second: "270 Sem T\xEDtulo_20241128150447 (1)_0"
+      213: -8927284924437724211
+    second: Obstaculo_0
+  - first:
+      213: -1039008277629453100
+    second: Obstaculo_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "270 Sem T\xEDtulo_20241128150447 (1)_0"
+      name: Obstaculo_0
       rect:
         serializedVersion: 2
-        x: 219
+        x: 80
         y: 0
-        width: 714
-        height: 1087
+        width: 515
+        height: 669
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 806a9a595b8bb7880800000000000000
-      internalID: -8612086772376427000
+      spriteID: dc38036f8a9eb1480800000000000000
+      internalID: -8927284924437724211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obstaculo_1
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 345
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcb435f973b491f0800000000000000
+      internalID: -1039008277629453100
       vertices: []
       indices: 
       edges: []
@@ -160,8 +185,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "270 Sem T\xEDtulo_20241128150447 (1)_0": -8612086772376427000
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

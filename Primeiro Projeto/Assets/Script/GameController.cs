@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private float timer = 1f;
     [SerializeField] private GameObject obstaculo;
     [SerializeField] private Vector3 posicao;
+    [SerializeField] private float posMin = 0.3f;
+    [SerializeField] private float posMax = -0.7f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +24,8 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("oi");
             timer = 1f;
+
+            posicao.y = Random.Range( posMin, posMax );
             Instantiate(obstaculo, posicao, Quaternion.identity);
         }
     }
