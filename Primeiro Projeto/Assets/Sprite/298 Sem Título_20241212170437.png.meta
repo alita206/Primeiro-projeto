@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: a24d5085104352a4dbe96feda450c204
+guid: 942bd6b3bdaabc04f84fab6632795c08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1301896133051725728
-    second: "296 Sem T\xEDtulo_20241212151155_0"
+      213: -1534594703431622135
+    second: "298 Sem T\xEDtulo_20241212170437_0"
   - first:
-      213: 4894672202995122236
-    second: "296 Sem T\xEDtulo_20241212151155_1"
+      213: 7495589048096006716
+    second: "298 Sem T\xEDtulo_20241212170437_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "296 Sem T\xEDtulo_20241212151155_0"
+      name: "298 Sem T\xEDtulo_20241212170437_0"
       rect:
         serializedVersion: 2
-        x: 120
+        x: 144
         y: 47
-        width: 6
-        height: 13
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a7b001a2a3411210800000000000000
-      internalID: 1301896133051725728
+      spriteID: 90223c37f3604bae0800000000000000
+      internalID: -1534594703431622135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "296 Sem T\xEDtulo_20241212151155_1"
+      name: "298 Sem T\xEDtulo_20241212170437_1"
       rect:
         serializedVersion: 2
-        x: 383
+        x: 408
         y: 0
-        width: 500
-        height: 940
+        width: 506
+        height: 948
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30c08f7f6e5de340800000000000000
-      internalID: 4894672202995122236
+      spriteID: c322212a68ea50860800000000000000
+      internalID: 7495589048096006716
       vertices: []
       indices: 
       edges: []

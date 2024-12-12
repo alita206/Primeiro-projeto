@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 9e48213d9c70fec4abda206e2ed535db
+guid: 3daaec62ede99e1438d0b76fcc855eb1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 889047129951609019
-    second: obstaculo 2 (2)_0
+      213: 7662046888016633708
+    second: Lamparina_0
   - first:
-      213: 3498969633957122168
-    second: obstaculo 2 (2)_1
+      213: -8080173858560776259
+    second: Lamparina_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obstaculo 2 (2)_0
+      name: Lamparina_0
       rect:
         serializedVersion: 2
         x: 120
@@ -144,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb0a85187a7865c00800000000000000
-      internalID: 889047129951609019
+      spriteID: c6f5e94ac0f055a60800000000000000
+      internalID: 7662046888016633708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: obstaculo 2 (2)_1
+      name: Lamparina_1
       rect:
         serializedVersion: 2
         x: 383
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87094eff756de8030800000000000000
-      internalID: 3498969633957122168
+      spriteID: db7661dafa47ddf80800000000000000
+      internalID: -8080173858560776259
       vertices: []
       indices: 
       edges: []
@@ -185,9 +185,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      obstaculo 2 (2)_0: 889047129951609019
-      obstaculo 2 (2)_1: 3498969633957122168
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
