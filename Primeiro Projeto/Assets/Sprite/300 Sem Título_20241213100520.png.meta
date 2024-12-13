@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 29d899acd1bc5df4b83fa02dfeeadf87
+guid: 56645ebce3401444b97f3974492b84d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4109371039987248914
-    second: "avi\xE3o 2_0"
+      213: 4815922461553879756
+    second: "300 Sem T\xEDtulo_20241213100520_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 450
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "avi\xE3o 2_0"
+      name: "300 Sem T\xEDtulo_20241213100520_0"
       rect:
         serializedVersion: 2
-        x: 171
-        y: 466
-        width: 858
-        height: 467
+        x: 35
+        y: 523
+        width: 1050
+        height: 554
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee0584fbfc498f6c0800000000000000
-      internalID: -4109371039987248914
+      spriteID: cca6eb286f795d240800000000000000
+      internalID: 4815922461553879756
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "avi\xE3o 2_0": -4109371039987248914
+      "300 Sem T\xEDtulo_20241213100520_0": 4815922461553879756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
