@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
+using Random = UnityEngine.Random;
+
 
 
 public class GameController : MonoBehaviour
@@ -26,19 +29,32 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     { //aumentar os pontos
+        SistemaDePonto();
+        CriandoObstaculo();
 
+    }
+
+    private void SistemaDePonto()
+    {
         pontos += Time.deltaTime;
-        Debug.Log(pontos);
+        Debug.Log(MathF.Round(pontos));
+        
+        
+    }
 
+    private void CriandoObstaculo()
+    {
         timer -= Time.deltaTime;
-        if (timer <= 0 )
+        if (timer <= 0)
         {
             Debug.Log("criando");
 
             timer = Random.Range(timeMax, timeMin);
+      
 
             posicao.x = meuX;
-            posicao.y = Random.Range( posMin, posMax );
+
+            posicao.y = Random.Range(posMin, posMax);
             Instantiate(obstaculo, posicao, Quaternion.identity);
         }
     }
