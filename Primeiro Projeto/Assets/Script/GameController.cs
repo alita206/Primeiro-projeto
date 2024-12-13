@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using Random = UnityEngine.Random;
+using UnityEngine.UI;
+using TMPro;
 
 
 
@@ -19,6 +21,9 @@ public class GameController : MonoBehaviour
 
     //Variavel dos pontos 
     private float pontos = 0f;
+
+    //variavel do ponto/canvas
+    [SerializeField] private TextMeshProUGUI pontosTexto;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -38,7 +43,9 @@ public class GameController : MonoBehaviour
     {
         pontos += Time.deltaTime;
         Debug.Log(MathF.Round(pontos));
-        
+        //passando os pontos para text
+        pontosTexto.text = pontos.ToString();
+
         
     }
 
