@@ -19,6 +19,12 @@ public class GameController : MonoBehaviour
     [SerializeField] private float posMax = 1.3f;
     [SerializeField] private float meuX = 12.64f;
 
+    //variavel do level
+    private int level = 1;
+
+    //variavel de nivel
+    [SerializeField] private float proximoLevel = 10f;
+
     //Variavel dos pontos 
     private float pontos = 0f;
 
@@ -36,7 +42,7 @@ public class GameController : MonoBehaviour
     { //aumentar os pontos
         SistemaDePonto();
         CriandoObstaculo();
-
+        GanhaLevel();
     }
 
     private void SistemaDePonto()
@@ -44,9 +50,19 @@ public class GameController : MonoBehaviour
         pontos += Time.deltaTime;
         Debug.Log(MathF.Round(pontos));
         //passando os pontos para text
-        pontosTexto.text = pontos.ToString();
+        pontosTexto.text = Mathf.Round(pontos).ToString();
+    }
 
-        
+    //ganhando o level
+    private void GanhaLevel() 
+    {
+        // se os pontos for maiores que proximo level então eu aumento o valor do level e depois dobro a quantidade de ponto pro proximo level
+        if (pontos > proximoLevel) 
+        {
+            level++;
+            proximoLevel = proximoLevel * 2;
+        }
+
     }
 
     private void CriandoObstaculo()
