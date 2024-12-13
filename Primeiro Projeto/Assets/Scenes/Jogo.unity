@@ -367,10 +367,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 1
-  obstaculo: {fileID: 7803028903071739499}
+  obstaculo: {fileID: 7233508500977049533, guid: 2e47b5af49e0e37499b92f961ec124ad, type: 3}
   posicao: {x: 0, y: 0, z: 0}
   posMin: -3.58
   posMax: 1.3
+  meuX: 12.64
 --- !u!1001 &1931730692603204259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -485,11 +486,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46a167b430c08e1478bf88c87bfaaa3b, type: 3}
---- !u!1 &7803028903071739499 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7233508500977049533, guid: 2e47b5af49e0e37499b92f961ec124ad, type: 3}
-  m_PrefabInstance: {fileID: 1931730692603204259}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8847761136197850641
 PrefabInstance:
   m_ObjectHideFlags: 0
