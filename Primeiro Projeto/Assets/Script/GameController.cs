@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private float posMin = -3.58f;
     [SerializeField] private float posMax = 1.3f;
     [SerializeField] private float meuX = 12.64f;
+    [SerializeField] private TextMeshProUGUI levelText;
 
     //variavel do level
     private int level = 1;
@@ -56,6 +57,9 @@ public class GameController : MonoBehaviour
     //ganhando o level
     private void GanhaLevel() 
     {
+        //passando o level para o texto do level 
+        levelText.text = level.ToString();
+
         // se os pontos for maiores que proximo level então eu aumento o valor do level e depois dobro a quantidade de ponto pro proximo level
         if (pontos > proximoLevel) 
         {
