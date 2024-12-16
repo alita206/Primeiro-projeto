@@ -76,7 +76,7 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("criando");
 
-            timer = Random.Range(timeMax, timeMin);
+            timer = Random.Range(timeMax / level , timeMin / level);
       
 
             posicao.x = meuX;
@@ -84,5 +84,12 @@ public class GameController : MonoBehaviour
             posicao.y = Random.Range(posMin, posMax);
             Instantiate(obstaculo, posicao, Quaternion.identity);
         }
+    }
+
+    public int Dificuldade()
+    {
+
+        return level;
+
     }
 }
