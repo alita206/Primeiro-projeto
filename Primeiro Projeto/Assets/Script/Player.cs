@@ -5,6 +5,8 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D meuRb;
     [SerializeField] private float velocidade = 5f;
+    [SerializeField] private float Max = 5.5f;
+    [SerializeField] private float Min = -5.5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,6 +19,7 @@ public class Player : MonoBehaviour
     {
         Subir();
         veloz();
+        Morrendo();
         
     }
     public void Subir() 
@@ -41,8 +44,21 @@ public class Player : MonoBehaviour
     
     }
 
+    private void Morrendo() 
+    {
+        if (transform.position.y > Max || transform.position.y < Min) 
+        {
+
+            SceneManager.LoadScene(0);
+        }
+    
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("bati");
-        SceneManager.LoadScene(0); }
+        SceneManager.LoadScene(0); 
+        
+
+    }
 }
