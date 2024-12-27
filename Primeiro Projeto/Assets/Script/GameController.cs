@@ -31,11 +31,14 @@ public class GameController : MonoBehaviour
 
     //variavel do ponto/canvas
     [SerializeField] private TextMeshProUGUI pontosTexto;
+    [SerializeField] private AudioClip minhaMusica;
+
+    private Vector3 camPos;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        camPos = Camera.main.transform.position;
     }
 
     // Update is called once per frame
@@ -63,6 +66,8 @@ public class GameController : MonoBehaviour
         // se os pontos for maiores que proximo level então eu aumento o valor do level e depois dobro a quantidade de ponto pro proximo level
         if (pontos > proximoLevel) 
         {
+            AudioSource.PlayClipAtPoint(minhaMusica, camPos );
+
             level++;
             proximoLevel = proximoLevel * 2;
         }

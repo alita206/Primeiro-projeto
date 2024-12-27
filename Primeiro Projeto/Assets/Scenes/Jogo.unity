@@ -339,7 +339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8767462973945105667, guid: 23b5b5cd95d78094e9607947cd005afe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 8767462973945105667, guid: 23b5b5cd95d78094e9607947cd005afe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -405,6 +405,7 @@ MonoBehaviour:
   levelText: {fileID: 0}
   proximoLevel: 10
   pontosTexto: {fileID: 1019841304}
+  minhaMusica: {fileID: 8300000, guid: 123aa9337d6258049bb36f082c1875f2, type: 3}
 --- !u!1001 &1244550812615874083
 PrefabInstance:
   m_ObjectHideFlags: 0
